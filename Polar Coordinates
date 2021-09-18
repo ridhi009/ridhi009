@@ -1,0 +1,5 @@
+from cmath import sqrt,phase
+comp = complex(input())
+
+print(sqrt(pow(comp.real , 2) + pow(comp.imag, 2)).real)
+print(phase(complex(comp.real,comp.imag)))
